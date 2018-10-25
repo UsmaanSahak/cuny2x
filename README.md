@@ -16,9 +16,13 @@ AWS
 
 Purpose: 
 Provides a web service that connects users to relevant projects and forms project teams around them.
+
  This is accomplished via notifications and email. A backend algorithm will take proposals submitted by users, parse them for keywords, and calculate a match percentage for a list of inquiring users. The inquiring users with a high match percentage will be contacted.
+ 
 In addition, it functions as a forum, where users are able to discuss a proposal in real time and manually search through proposals using multiple different search criteria (Solr will be used heavily for this.) Proposals will have an expiration date, as to prevent no longer relevant data from clogging the data storage. 
+
 More features may be added overtime, as it being developed incrementally.
+
 
 
 
